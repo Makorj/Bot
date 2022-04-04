@@ -378,6 +378,8 @@ function getCanvasFromUrl(url, canvas, x = 0, y = 0, clearCanvas = false) {
                 setTimeout(() => loadImage(ctx), 3000);
             };
             img.src = imageUrl;
+            }
+            };
         };
         loadImage(canvas.getContext('2d'));
     });
